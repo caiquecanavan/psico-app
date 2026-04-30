@@ -186,10 +186,12 @@ function renderLoginPage() {
     document.getElementById('app').innerHTML = `
         <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#002271,#0B369B);padding:40px;">
             <div style="width:100%;max-width:440px;background:white;border-radius:24px;padding:40px;">
-                <div style="text-align:center;margin-bottom:32px;">
-                    <span class="material-symbols-outlined filled-icon" style="font-size:48px;color:#002271;">psychology_alt</span>
-                    <h1 style="font-size:28px;font-weight:700;color:#1e293b;margin-top:12px;">Bem-vindo</h1>
-                </div>
+                <div style="display: flex; justify-content: center; margin-bottom: 24px;">
+    <img src="assets/PSIC_logo.svg" alt="PSICO" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;">
+</div>
+<div style="text-align:center;margin-bottom:32px;">
+    <h1 style="font-size:28px;font-weight:700;color:#1e293b;">Bem-vindo</h1>
+</div>
                 <form onsubmit="handleLogin(event)" style="display:flex;flex-direction:column;gap:16px;">
                     <div>
                         <label style="font-size:13px;font-weight:600;color:#475569;display:block;margin-bottom:4px;">E-mail</label>
